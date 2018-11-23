@@ -9,17 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+   
+    private var firstView : GraphView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.firstView = GraphView(frame: CGRect(x: view.center.x - 30, y: 200, width: 60, height: 300))
+        view.addSubview(firstView)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 

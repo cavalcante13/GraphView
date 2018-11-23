@@ -14,6 +14,7 @@
 		F54BE54F21A7676E005A9929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54BE54D21A7676E005A9929 /* LaunchScreen.storyboard */; };
 		F54BE55A21A7676E005A9929 /* GraphViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54BE55921A7676E005A9929 /* GraphViewTests.swift */; };
 		F54BE56521A7676E005A9929 /* GraphViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54BE56421A7676E005A9929 /* GraphViewUITests.swift */; };
+		F54BE57321A76789005A9929 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54BE57221A76789005A9929 /* GraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F54BE56021A7676E005A9929 /* GraphViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54BE56421A7676E005A9929 /* GraphViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewUITests.swift; sourceTree = "<group>"; };
 		F54BE56621A7676E005A9929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54BE57221A76789005A9929 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				F54BE54421A7676C005A9929 /* AppDelegate.swift */,
 				F54BE54621A7676C005A9929 /* ViewController.swift */,
 				F54BE54821A7676C005A9929 /* Main.storyboard */,
+				F54BE57421A767B4005A9929 /* GraphVIew */,
 				F54BE54B21A7676E005A9929 /* Assets.xcassets */,
 				F54BE54D21A7676E005A9929 /* LaunchScreen.storyboard */,
 				F54BE55021A7676E005A9929 /* Info.plist */,
@@ -123,6 +126,14 @@
 				F54BE56621A7676E005A9929 /* Info.plist */,
 			);
 			path = GraphViewUITests;
+			sourceTree = "<group>";
+		};
+		F54BE57421A767B4005A9929 /* GraphVIew */ = {
+			isa = PBXGroup;
+			children = (
+				F54BE57221A76789005A9929 /* GraphView.swift */,
+			);
+			path = GraphVIew;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			files = (
 				F54BE54721A7676C005A9929 /* ViewController.swift in Sources */,
 				F54BE54521A7676C005A9929 /* AppDelegate.swift in Sources */,
+				F54BE57321A76789005A9929 /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
